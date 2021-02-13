@@ -1,0 +1,6 @@
+*~
+/pkg/
+/tmp/
+/.bundle/
+/Gemfile.lock
+/spec/lib/embulk/input/slack/config.rb
