@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Loads slack channel messages using slack API."
   spec.email         = ["ssktty1994@gmail.com"]
   spec.licenses      = ["MIT"]
-  # TODO set this: spec.homepage      = "https://github.com//embulk-input-slack_channel_messages"
+  spec.homepage      = "https://github.com/Sasaki1994/embulk-input-slack_channel_messages"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
   spec.test_files    = spec.files.grep(%r{^(test|spec)/})
