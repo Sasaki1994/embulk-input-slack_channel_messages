@@ -1,18 +1,17 @@
 # Slack Channel Messages input plugin for Embulk
 
-input all messages of slack public channels
+input all messages from slack public channels
 
 ## Overview
 
-- **Plugin type**: input
-- **Resume supported**: yes
-- **Cleanup supported**: yes
-- **Guess supported**: no
+**Plugin type**: input
 
 ## Configuration
 
-- **token**: slack api token (string, required)
-- **channel_ids**: array of slack public channel ids (array, required)
+| name        | type   | requirement | default | description              |
+| ----------- | ------ | ----------- | ------- | ------------------------ |
+| token       | string | 　 required |         | slack api token          |
+| channel_ids | array  | required    |         | slack public channel ids |
 
 using slack apis below
 
@@ -21,7 +20,7 @@ using slack apis below
 - conversations.history
 - conversations.info
 
-We must add an OAuth scopes for using these apis.
+**We must add an OAuth scopes for using these apis.**
 
 ## Example
 
