@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sasaki1994"]
   spec.summary       = "Slack Channel Messages input plugin for Embulk"
   spec.description   = "Loads slack channel messages using slack API."
-  spec.email         = ["ssktty1994@gmail.com"]
+  spec.email         = ["b.92421933411@gmail.com"]
   spec.licenses      = ["MIT"]
   spec.homepage      = "https://github.com/Sasaki1994/embulk-input-slack_channel_messages"
 
